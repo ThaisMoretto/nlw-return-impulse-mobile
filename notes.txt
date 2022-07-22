@@ -1,0 +1,29 @@
+npm install -g expo-cli
+
+expo init nomeProjeto
+blank typescript
+expo start = inicar a aplicação
+
+Estrutura de pastas:
+expo-shared = o próprio expo utiliza para armazenar informações compartilhadas e utilizads pelo proprio expo.
+app.json = arquivo que guarda informações da aplicação. (nome, versão, etc)
+App.tsx = arquivo de entrada da aplicação
+babel.config.js = configs de inicialização e transpilação da app
+
+view = div
+
+expo install expo-app-loading = segura o carregamento até as fontes estarem carregadas
+
+npm install --save phosphor-react-native = icones
+expo install react-native-svg = biblioteca para lidar com svg
+yarn add react-native-x-helper = ajudar com particularidades do Iphone
+
+yarn add @gorhom/bottom-sheet@^4
+expo install react-native-animated e adiciona o plugin no babel.config(plugins: ["react-native-reanimated/plugin"])
+expo install react-native-gesture-handler
+
+expo install react-native-view-shot
+
+yarn add axios
+
+expo install expo-file-system = para lidar com conversão de imagem para base64
